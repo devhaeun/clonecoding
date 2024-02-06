@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.flip-btn{
+    width: 200px;
+    height: 100px;
+    text-align:center;
+    line-height: 100px;
+    color:white;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.flip-btn:hover{
+    transform:rotateX(-90deg);
+}
+
+.front{
+    height: 100px;
+    background-color: goldenrod;
+    transform: translateZ(50px);
+}
+
+.back{
+    height: 100px;
+    background-color: darkgoldenrod;
+    transform: rotateX(90deg) translateZ(150px);
+}
