@@ -1,0 +1,77 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/room.jpg);
+}
+
+.header{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 a{
+    text-decoration: none;
+    font-family: abster;
+    color: white;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header .nav ul li a:hover{
+    color:#1fdfdf;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 22px;
+}
+
+.hero button{
+    background: none;
+    border: 2px solid darkseagreen;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+.hero button:hover{
+    background-color: darkslategray;
+}
