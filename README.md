@@ -25,5 +25,9 @@ HTML과 CSS를 이용해 3D 버튼을 만든다.
 > 3. 클릭했을 때 효과: `:hover` 이용
 <br/>
 
+## 3. 웹 페이지
+HTML과 CSS를 이용해 하나의 웹 페이지를 만든다.
+<br/>
+
 ## 참고
 [HTML+CSS+JS 미니 프로젝트 실습](https://www.youtube.com/playlist?list=PL-eeIUD86IjSyxTbGT7wY3Hie_HA5bKvg)
