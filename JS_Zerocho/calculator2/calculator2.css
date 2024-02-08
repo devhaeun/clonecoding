@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#result{
+    width: 180px;
+    height: 50px;
+    margin: 5px;
+    text-align: right;
+}
+#operator{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.container{
+    width: 281px;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
