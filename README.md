@@ -29,5 +29,10 @@ HTML과 CSS를 이용해 3D 버튼을 만든다.
 HTML과 CSS를 이용해 하나의 웹 페이지를 만든다.
 <br/>
 
+## 4. 계산기
+HTML과 CSS, 그리고 간단한 JS를 이용해 계산기를 만든다.
+<br/>
+
+
 ## 참고
 [HTML+CSS+JS 미니 프로젝트 실습](https://www.youtube.com/playlist?list=PL-eeIUD86IjSyxTbGT7wY3Hie_HA5bKvg)
