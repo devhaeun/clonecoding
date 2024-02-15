@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#main{
+    background: url(./greyBackground.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Questrial", sans-serif;
+}
+
+#contents{
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#contents h1{
+    font-size: 70px;
+    margin-bottom: 16px;
+    font-family: "Dancing Script", cursive;
+}
+#contents p{
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+#contents a{
+    display: inline-block;
+    font-size: 17px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 17px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+#contents a:hover{
+    background-color: darkslategrey;
+}
+
+@media(max-width:769px){
+    #contents h1{
+        font-size: 50px;
+    }
+    #contents p{
+        font-size: 20px;
+    }
+    #contents a{
+        font-size: 14px;
+    }
+}
