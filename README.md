@@ -43,6 +43,17 @@ HTML과 CSS를 이용해 애니메이션이 들어간 버튼을 만든다.
 마우스를 올리면 색이 변하며 다른 글자가 나타난다.
 <br/>
 
+## 7. 카드UI
+HTML과 CSS를 이용해 간단한 카드 UI를 만든다.
+마우스를 올리면 카드 색이 변하며 아이콘이 바뀌는 애니메이션 효과를 준다.
+<br/>
+
+## 8. Full Screen Landing Page
+HTML과 CSS를 이용해 하나의 웹 페이지를 만든다.
+구글 폰트와 imgur 이미지를 이용해 페이지를 꾸민다.
+<br/>
+
 
 ## 참고
-[HTML+CSS+JS 미니 프로젝트 실습](https://www.youtube.com/playlist?list=PL-eeIUD86IjSyxTbGT7wY3Hie_HA5bKvg)
+- [HTML+CSS+JS 미니 프로젝트 실습](https://www.youtube.com/playlist?list=PL-eeIUD86IjSyxTbGT7wY3Hie_HA5bKvg)
+- JS 실습: <Let's Get IT 자바 스크립트> 교재
