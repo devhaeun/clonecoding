@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.typing-text {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 2rem;
+    color: white;
+    border-right: 3px solid white;
+    animation: blink .6s infinite, typing 2s steps(22);
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+@keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 476px;
+    }
+}
